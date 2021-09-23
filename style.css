@@ -348,6 +348,18 @@ img{
     border: 4px double white;
     animation:animation 1.6s  infinite;
 }
+.exprenceDetai span::before {
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: 8px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 4px double white;
+    animation: animation 1.6s  infinite;
+}
 .play{
     font-size: 10px;
 }
