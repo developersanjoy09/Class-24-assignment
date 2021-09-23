@@ -1,0 +1,388 @@
+.logo{
+    max-width: 80px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.nav-color{
+    background-color: #e0e0e0;
+    color: black;
+}
+.costom-list ul li{
+    padding: 10px 15px;
+}
+.costom-list ul li a{
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+.costom-btn{
+        text-decoration: none;
+        margin-right: 100px;
+        background-color: #ffffff;
+        color: #1d1dc8;
+        padding: 11px 30px;
+        border-radius: 32px;
+        border: 1px solid #ffffff;
+        position: relative;
+        left:50px;
+        font-weight: 600;
+        position: relative;
+        z-index: 1;
+}
+.costom-btn:hover{
+    color: #fff;
+}
+.costom-btn::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1d1dc8;
+    border-radius: 32px;
+    z-index: -1;
+    transition: .5s;
+}
+.costom-btn:hover::before{
+    width: 100%;
+}
+.costom-list{
+    margin-left: 270px;
+}
+.praymari-menu li a:hover{
+    color: #1d1dc8;
+}
+ 
+.praymari-menu li a{
+    position: relative;
+}
+.praymari-menu li a::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 230%;
+    width: 0%;
+    height: 15%;
+    background-color: #1d1dc8;
+     color: #1d1dc8;
+    transition: .5s;
+}
+.praymari-menu li a:hover::after{
+    width: 118%;
+    color: #1d1dc8;
+}
+.hover-active{
+    color: #1d1dc8 !important;
+}
+.hover-active{
+    position: relative;
+}
+.praymari-menu li a.hover-active::before{
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 230%;
+    width:150%;
+    height: 15%;
+    background-color: #1d1dc8;
+    display: block;
+    transition: .5s;
+    color: #1d1dc8;
+
+}
+
+/* DropDrown css */
+.praymari-menu li{
+    position: relative;
+}
+.praymari-menu ul{
+    position: absolute;
+    top: 130%;
+    left:0;
+    width:  0px;
+    background: #ffffff;
+    padding: 13px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease-in-out;
+
+}
+.praymari-menu ul li{
+    background-color: blue;
+    list-style: none;
+    display: block;
+}
+.praymari-menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.praymari-menu li{
+    position: relative;
+}
+.praymari-menu li:hover ul{
+    position: absolute;
+    text-align: center;
+    top: 130%;
+    left:0;
+    width: 150px;
+    background: #ffffff;
+    padding: 20px 20px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    visibility: visible;
+}
+.praymari-menu ul li a::after{
+    display: none;
+}
+/* start banner */
+ .banner{
+     background-color: #edf6ff;
+     padding: 150px;
+     overflow: hidden;
+ }
+img{
+    max-width: 100%;
+}
+.banner-img{
+    position: relative;
+}
+.banner-img img {
+    position: absolute;
+    right: -228px;
+    top: -250px;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+}
+.dis-btn{
+    padding: 6px 12px;
+    border-radius: 40px;
+    background-color: #0d6efd;
+    color: #fff;
+    border: 1px solid #0d6efd;
+    transition: .5s;
+}
+.dis-btn:hover{
+    background-color: #fff;
+    color: #0d6efd;
+}
+/* section service */
+.serviceTitle{
+    margin-top: 60px;
+}
+.serviceTitle h5{
+    color: #3763eb;
+    font-size: 18px;
+    padding: 10px 0;
+    font-weight: 400;
+}
+.serviceTitle h2{
+    color: #000;
+    line-height: 59px;
+    font-weight: 500;
+    position: relative;
+}
+.serviceTitle h2::after {
+    content: "";
+    position: absolute;
+    width: 73px;
+    height: 3px;
+    background: #3763eb;
+    bottom: -20px;
+    left: 0;
+}
+.serviceTitle p {
+    margin-top: 54px;
+    color: #606060;
+    line-height: 32px;
+    
+}
+.servicesItem{
+    background:#f6f9fc;
+    padding-left: 20px;
+    overflow: hidden;
+    transition:All 0.3s ease-in-out;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+}
+.path_pr{
+    position: relative;
+}
+.path img {
+    width: 100%;
+    position: absolute;
+    top: 114px;
+    left: -35px;
+}
+.servicesItem h2{
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
+    padding: 10px 0;
+        padding-top: 10px;
+    padding-top: 50px;
+    display: inline-block;
+    transition:All 0.3s ease-in-out;
+}
+.servicesItem span{
+    background: #3763eb;
+    color:#ffffff;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 45px 45px 45px 0px;
+    margin: 20px 0;
+    position: relative;
+    transition:All 0.3s ease-in-out;
+}
+.servicesItem span::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background: #3763eb;
+    bottom: -30px;
+    left: -3px;
+    transition:All 0.3s ease-in-out;
+}
+.servicesItem p{
+    padding: 30px 0;
+    color: #000;
+    font-weight: 400;
+    transition:All 0.3s ease-in-out;
+}
+.servicesItem:hover{
+    background:#3763eb;
+    border-radius: 8px;
+    color:#ffffff;
+}
+.servicesItem:hover p{
+    color: #ffffff;
+}
+.servicesItem:hover h2{
+    color: #ffffff;
+}
+.servicesItem:hover.servicesItem span{
+    background:#ffffff;
+    color: #3763eb;
+    
+}
+.servicesItem:hover.servicesItem span::after{
+    background:white;
+    width: 50px;
+}
+.videoContent{
+    margin-top:100px;
+    background: url(./img/video-bg.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.videoContent::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#0e1216dc;
+    z-index: -1;
+}
+.exprenceDetai{
+    color: white;
+}
+.exprenceDetai h4{}
+.exprenceDetai h1{
+    position: relative;
+}
+.exprenceDetai h1::after {
+    content: "";
+    width: 70px;
+    height: 2px;
+    background: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+.exprenceDetai p{
+    
+}
+.exprenceDetai span {
+    width: 70px;
+    height: 70px;
+    background: #ffffff;
+    line-height: 80px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 30px;
+    position: relative;
+    transition: all 0.6s ease-in-out;
+    cursor: pointer;
+    color: blue;
+}
+.exprenceDetai span:hover{
+    background: #3763eb;
+    color: #fff;
+}
+.exprenceDetai span i{
+    font-size: 25px;
+}
+.exprenceDetai span::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    border-radius:50%;
+    border: 4px double white;
+    animation:animation 1.6s  infinite;
+}
+.play{
+    font-size: 10px;
+}
+ 
+@keyframes animation{
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    15%{
+        transform: scale(1);
+        opacity: 0.2;
+    }
+    30%{
+        transform: scale(1.3);
+        opacity: 0.3;
+    }
+    45%{
+        transform: scale(1.5);
+        opacity: 0.3;
+    }
+    60%{
+        transform: scale(1.6);
+        opacity: 0.3;
+    }
+    75%{
+        transform: scale(1.8);
+        opacity: 0.3;
+    }
+    90%{
+        transform: scale(2);
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 0;
+        transform: scale(2.3);
+    }
+}
