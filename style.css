@@ -30,6 +30,7 @@
         font-weight: 600;
         position: relative;
         z-index: 1;
+        overflow: hidden
 }
 .costom-btn:hover{
     color: #fff;
